@@ -1,0 +1,26 @@
+[
+    {
+        "predicate": "All",
+        "conditions": [
+            {
+                "field": "from_email",
+                "predicate": "contains",
+                "value": "jobalerts-noreply@linkedin.com"
+            },
+            {
+                "field": "subject",
+                "predicate": "contains",
+                "value": "Now hiring"
+            },
+            {
+                "field": "received_datetime",
+                "predicate": "less than",
+                "value": "2024-06-26 06:16:09"
+            }
+        ],
+        "actions": [
+            "mark_as_read",
+            "move_message"
+        ]
+    }
+]
