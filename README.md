@@ -11,11 +11,12 @@ Project to process email based on the rules defined in the rules.json file and u
 3. Setup Database 
    ```mysql> source all_db.sql ```
 4. Set up a service account and download the JSON key file from the Google Cloud Console.
-5. create and replace credentials.json
-6. Run the fetch script
+5. create and replace credentials.json 
+6. remove token.json file if your running for the first time
+7. Run the fetch script
    ``` python3 fetch_emails.py```
-7. Place your rules in `rules.json`
-8. Run the processing script
+8. Place your rules in `rules.json`
+9. Run the processing script
    ```python3 process_emails.py```
 
 # Notes:
