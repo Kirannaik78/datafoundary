@@ -21,6 +21,8 @@ Project to process email based on the rules defined in the rules.json file and u
 
 # Notes:
 
+I have mentioned comment for each line of code so that it will be helpfully while reading
+
  ## Problems
 * Program could be optimized to fetch the mails in batch which would have improved processing time
 * Program is updating actions in the database like update is_read column and folder column instead of taking actually action
